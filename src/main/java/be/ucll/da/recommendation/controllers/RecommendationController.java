@@ -1,6 +1,7 @@
 package be.ucll.da.recommendation.controllers;
 
 import be.ucll.da.recommendation.model.Item;
+import be.ucll.da.recommendation.model.RecommendedItem;
 import be.ucll.da.recommendation.model.SlopeOne;
 import be.ucll.da.recommendation.model.User;
 import be.ucll.da.recommendation.repository.RecommendedItemRepository;
@@ -11,7 +12,7 @@ import java.util.List;
 import java.util.Map;
 import java.util.stream.StreamSupport;
 
-
+@CrossOrigin
 @RestController
 public class RecommendationController {
 
